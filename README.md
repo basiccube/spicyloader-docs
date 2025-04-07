@@ -12,6 +12,8 @@ As mentioned in the introduction, the mod loader in its current state, is... ver
 Right now only two types of mods are supported, those being mods that add additional objects into the mod, and character reskin mods.  
 There are also no safe-guards that would prevent mods from doing something nefarious to the game (or even worse, your system), and for character reskin mods, not all sprites can be replaced.
 
+Mods are loaded from a "mods" folder, and each sub-folder in it is a separate mod.
+
 ## Other Notes
 
 Example mods that work with the mod loader can be found here:  

@@ -4,25 +4,25 @@
 	* [init.gml](/modlayout/init)
 	* [cleanup.gml](/modlayout/cleanup)
 	* [Objects](/modlayout/objectsfolder)
-		* create.gml (Create)
-		* destroy.gml (Destroy)
-		* cleanup.gml (Cleanup)
-		* step.gml (Step)
-		* beginstep.gml (Begin Step)
-		* endstep.gml (End Step)
-		* draw.gml (Draw)
-		* drawbegin.gml (Draw Begin)
-		* drawend.gml (Draw End)
-		* drawgui.gml (Draw GUI)
-		* drawguibegin.gml (Draw GUI Begin)
-		* drawguiend.gml (Draw GUI End)
-		* predraw.gml (Pre-Draw)
-		* postdraw.gml (Post-Draw)
-		* roomstart.gml (Room Start)
-		* roomend.gml (Room End)
-		* outsideroom.gml (Outside Room)
-		* intersectboundary.gml (Intersect Boundary)
-		* animationend.gml (Animation End)
-		* alarm(0-11).gml (Alarms)
-		* userevent(0-15).gml (User Events)
+		* create.gml
+		* destroy.gml
+		* cleanup.gml
+		* step.gml
+		* beginstep.gml
+		* endstep.gml
+		* draw.gml
+		* drawbegin.gml
+		* drawend.gml
+		* drawgui.gml
+		* drawguibegin.gml
+		* drawguiend.gml
+		* predraw.gml
+		* postdraw.gml
+		* roomstart.gml
+		* roomend.gml
+		* outsideroom.gml
+		* intersectboundary.gml
+		* animationend.gml
+		* alarm(0-11).gml
+		* userevent(0-15).gml
 	* [Sprites](/modlayout/spritesfolder)

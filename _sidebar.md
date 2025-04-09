@@ -5,3 +5,4 @@
 	* [cleanup.gml](/modlayout/cleanup)
 	* [Objects](/modlayout/objectsfolder)
 	* [Sprites](/modlayout/spritesfolder)
+	* [Constants](/modlayout/constants)

@@ -10,6 +10,8 @@ Because the mod loader itself is currently quite unfinished and in a pretty bare
 Mods are loaded from a "mods" folder, which can be either created next to where the game executable is, or in the mod's AppData directory. Each sub-folder in it is a separate mod.  
 Once you put a mod in that folder, you can then go into the mod manager menu in-game and enable it.
 
+![Mod Manager menu](https://github.com/basiccube/spicyloader-docs/blob/main/images/modmanager.png?raw=true)
+
 ## Current Status
 
 As mentioned in the introduction, the mod loader in its current state, is... very unfinished.  

@@ -32,14 +32,25 @@ The following events are supported:
 ```userevent(0-15).gml``` User Events  
 
 ## "with" statement
-In the code, you cannot use **with** statements with mod loader objects the same way as regular objects.  
-You have to check all mod loader objects and see if its object name (which is in the __OBJECT struct) is the same as whatever the name of the object you're checking for.  
+In the code, you cannot use **with** statements with mod loader objects in the same way as regular objects.  
+There are two different methods you can use:
+
+The best and recommended method is to use the new **mith** function, this is meant to be a close enough replacement for the **with** statement, **mith** being "mod loader" and "with" combined into one word.  
+For example, if you want to run code in all obj_example mod loader objects, you can do the following:
+```gml
+mith(obj_example, function()
+{
+	// code for obj_example here
+})
+```
+
+Alternatively, the other method is to use the **with** statement and check all mod loader objects and see if its object name (which is in the objectInfo struct) is the same as whatever the name of the object you're checking for.  
 
 So, if you want to run code in the obj_example mod loader object using the **with** statement, you can do the following:
 ```gml
 with (obj_modloaderObject)
 {
-	if (__OBJECT.name == obj_example.name)
+	if (objectInfo.name == obj_example.name)
 	{
 		// code for obj_example here
 	}
@@ -49,11 +60,11 @@ with (obj_modloaderObject)
 ```gml
 with (obj_modloaderObject)
 {
-	if (__OBJECT.name != obj_example.name)
+	if (objectInfo.name != obj_example.name)
 		continue;
 		
 	// code for obj_example here
 }
 ```
 
-Yes, this isn't very convenient, but right now that's the only way you can use it. __OBJECT might be renamed in future builds, so keep that in mind.
+> If your code contains the **__OBJECT** struct in place of the **objectInfo** struct, please update your code as **__OBJECT** has been deprecated and will be removed in the future.

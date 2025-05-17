@@ -1,7 +1,5 @@
 # "objects" folder
 
-**This only applies to mods with the default mod type.**
-
 This folder is scanned by the mod loader where it will then detect sub-folders within it and add them as objects. The folder names is what it will use for the object names.
 Each object sub-folder contains it's own set of GML files which are the object events.
 
@@ -67,4 +65,4 @@ with (obj_modloaderObject)
 }
 ```
 
-> If your code contains the **__OBJECT** struct in place of the **objectInfo** struct, please update your code as **__OBJECT** has been deprecated and will be removed in the future.
+> If your code contains the **__OBJECT** struct in place of the **objectInfo** struct, it should still work for compatibility purposes but keep in mind that it is recommended that you use the **objectInfo** struct instead.

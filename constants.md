@@ -1,7 +1,5 @@
 # Constants
 
-**This only applies to mods with the default mod type.**
-
 There are a few constants you can use if you need them for any reason:
 
 ```SCREEN_WIDTH``` The width of the screen.  
@@ -231,6 +229,7 @@ hookshot
 revolver
 dynamite
 boots
+slidekick
 
 mortnormal
 ball

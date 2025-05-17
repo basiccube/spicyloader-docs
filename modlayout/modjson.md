@@ -28,7 +28,7 @@ Some examples:
 	"name" : "Example Mod",
 	"desc" : "An example mod for the mod loader implementation in Spicy Topping.",
 	"author" : "basiccube",
-	"version" : "1.0"
+	"version" : "1.0",
 }
 ```
 

@@ -1,8 +1,10 @@
 * [Information](/)
 * Mod Layout
 	* [mod.json](/modlayout/modjson)
-	* [init.gml](/modlayout/init)
-	* [cleanup.gml](/modlayout/cleanup)
-	* [Objects](/modlayout/objectsfolder)
-	* [Sprites](/modlayout/spritesfolder)
-	* [Constants](/modlayout/constants)
+	* For Object-Addition Mods
+		* [init.gml](/modlayout/objectmods/init)
+		* [cleanup.gml](/modlayout/objectmods/cleanup)
+		* [Objects](/modlayout/objectmods/objects)
+	* For Character Reskin Mods
+		* [Sprites](/modlayout/reskinmods/sprites)
+* [Constants](/constants)

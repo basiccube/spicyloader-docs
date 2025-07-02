@@ -1,7 +1,5 @@
 # Spicy Topping Mod Loader
 
-## Introduction
-
 This is the documentation for the mod loader in Spicy Topping. The mod loader allows you to add additional functionality to Spicy Topping, via "mods" or, for the sake of not confusing with the Spicy Topping mod itself, "mini-mods".  
 Because the mod loader itself is currently quite unfinished and in a pretty barebones state, all information here is subject to change.
 

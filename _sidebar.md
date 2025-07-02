@@ -5,6 +5,6 @@
 		* [init.gml](/modlayout/objectmods/init)
 		* [cleanup.gml](/modlayout/objectmods/cleanup)
 		* [Objects](/modlayout/objectmods/objects)
-	* For Character Reskin Mods
-		* [Sprites](/modlayout/reskinmods/sprites)
+	* [Sprites](/modlayout/sprites)
 * [Constants](/constants)
+* [Afterimage Color Sets](/afterimages)

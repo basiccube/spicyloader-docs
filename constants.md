@@ -64,35 +64,18 @@ transition
 transitioncutscene
 
 handstandjump
-grabbing
-
 punch
 slap
 faceplant
-
 chainsawbump
-chainsawpogo
 
 grab
 finishingblow
 superslam
-
-backkick
-uppunch
-shoulder
-pizzathrow
 tacklecharge
 
-pistol
-pistolaim
-
 shotgun
-shotguncrouch
-shotguncrouchjump
 shotgunshoot
-shotgunfreefall
-shotgundash
-shotgunjump
 
 lungeattack
 lungegrab
@@ -221,15 +204,23 @@ springjump
 machcancelstart
 machcancel
 noisecrusher
+bombkick
 
 pogo
-hang
+wallcling
 hookshot
+
+jetpack
+jetpackstart
 
 revolver
 dynamite
 boots
 slidekick
+
+helicopter
+helicopterfall
+helicopterspin
 
 mortnormal
 ball
@@ -245,5 +236,8 @@ bounce
 charge
 chase
 land
+grabbing
+uppunch
+shoulder
 pizzaheadjump
 ```

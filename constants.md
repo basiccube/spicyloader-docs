@@ -223,6 +223,11 @@ helicopterfall
 helicopterspin
 
 mortnormal
+
+marionormal
+marioanim
+mariodead
+
 ball
 
 idle

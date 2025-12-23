@@ -1,6 +1,6 @@
 # Custom Afterimage Color Sets
 
-Starting with the July 2nd build, custom afterimage color sets can now be added into the mod.  
+Starting with the July 2nd (2025) build, custom afterimage color sets can now be added into the mod.  
 These are loaded from the afterimages folder in Spicy Topping's AppData directory.
 If the folder doesn't exist then just create it yourself.
 
